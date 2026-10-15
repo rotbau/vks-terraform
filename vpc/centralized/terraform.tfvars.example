@@ -1,0 +1,13 @@
+# NSX Connection Details
+nsx_manager_host = "nsx.example.com"
+nsx_username     = "admin"
+nsx_password     = "VMware123Secret!"
+
+# Project and Existing Profile
+nsx_project_name                   = "org-test-dev"
+existing_connectivity_profile_name = "dev-apps-vpc-connectivity-profile" # Exact name from NSX UI under VPCs > Select Project from Pulldown > Profiles
+
+# VKS VPC Settings
+vpc_name              = "vks-cluster-vpc"
+vpc_short_id          = "vksvpc01"
+vpc_private_ip_blocks = ["10.150.0.0/16"]
