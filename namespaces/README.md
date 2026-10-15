@@ -2,6 +2,8 @@
 
 This example is based on the vSphere Terraform provider to create a vSphere Namespace.  The vSphere Terraform provider is missing the capability to override vSphere namespace network configuration and assign RBAC.  This feature is in the VCFA terraform provider.
 
+**Note: not compatile with VPC enabled namespaces**
+
 ## Pre-requisites
 1. Credentials assigned namespace owner / ability to create vSphere namespaces
 2. Supervisor ID
